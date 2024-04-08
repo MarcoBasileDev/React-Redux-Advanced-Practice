@@ -6,6 +6,7 @@ import Layout from "./components/Layout/Layout";
 import Products from "./components/Shop/Products";
 import { uiActions } from "./store/ui-slice";
 import Notification from "./components/UI/Notification";
+import DATABASE_URL from "./database_url";
 
 let isInitial = true;
 
@@ -24,7 +25,7 @@ function App() {
           message: "Sending cart data!",
         })
       );
-      const response = await fetch("your_firebase_database_url/cart.json", {
+      const response = await fetch(DATABASE_URL + "/cart.json", {
         method: "PUT",
         body: JSON.stringify(cart),
       });
