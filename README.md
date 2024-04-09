@@ -8,7 +8,7 @@
 ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34)
 ![Static Badge](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
-This project is a simple React application developed to practice Redux and Redux Toolkit. It features a dummy shopping cart where users can add products, increase or decrease their quantity, and view the total price. The application also demonstrates advanced Redux concepts such as handling asynchronous code, managing HTTP states, and using action creators with Redux Thunk. The backend is hosted on Firebase, providing a seamless integration with the front-end.
+This project is a simple React application developed to practice Redux and Redux Toolkit. It features a dummy shopping cart where users can add products, increase or decrease their quantity, and view the total price. The application also demonstrates advanced Redux concepts such as handling asynchronous code, managing HTTP states, and the usage of an Action Creator Thunk. The backend is hosted on Firebase, providing a seamless integration with the front-end.
 
 ## Learning Goals
 
@@ -18,7 +18,7 @@ This project was developed with the primary goal of practicing and consolidating
 - Handling asynchronous code and side effects.
 - Integrating backend services like Firebase.
 - anaging HTTP states and feedback in Redux.
-- Writing and organizing Redux actions, reducers, and middleware.
+- Writing and organizing Redux actions and reducers.
 
 ## Features
 
